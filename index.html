@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="menu.js" defer></script>
+    <title>Website Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/Logo3.png" alt="imagem da logo do meu Portfólio é um Bb como refência ao meu nome">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato" id="contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </div> <!--btn-button-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--btn-abrir-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--btn-fechar-->
+
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                    </ul>
+                </nav>
+                <div class="overlay-menu" id="overlay-menu"></div>
+            </div><!--menu-mobile-->
+        </div> <!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Codificando sonhos em soluções digitais<span>.</span></h1>
+                        <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante, funcionalidade intuitiva e otimização para resultados, estou pronta para criar a presença online dos seus sonhos.</p>
+
+                        <div class="btn-contato">
+                            <a href="#contato">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div><!--btn-contato-->
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/perfil.jpg" alt="Uma breve descrição minha, me considero uma mulher parda, com longos cabelos preto, olhos pretos e estou sorrindo na foto">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section> <!--topo-do-site-->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2>MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <div class="icon-title-container"> <!--Contêiner para o ícone e o título -->
+                            <i class="bi bi-code-square"></i>
+                            <h3>Hard Skills</h3>
+                        </div>
+                        <div class="imagem-container"> <!-- Contêiner para as imagens -->
+                            <img src="images/js.png" alt="imagem do logotipo de JavaScript">
+                            <img src="images/css.png" alt="imagem do logotipo de CSS">
+                            <img src="images/html.png" alt="imagem do logotipo HTML">
+                            <img src="images/Mysql.png" alt="imagem do logotipo MySql">
+                            <img src="images/aws.png" alt="imagem do logotipo aws">
+                        </div>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/perfil2.jpeg" alt="uma todo minha séria com óculos de grau">
+                    </div><!--img-sobre-->
+                    <div class="txt-sobre">
+                        <h2>Muito Prazer,
+                        <br> Sou <span>Brunna Bonilha.</span></h2>
+                        <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas no primeiro semestre e recentemente finalizei um bootcamp de JavaScript na Generation Brasil. Além de desenvolvimento, estou estudando Análise de Dados e Cyber Segurity. Estou em busca de uma oportunidade de estágio na área de desenvolvimento, onde possa aplicar as habilidades adquiridas e continuar aprendendo. Estou animada para contribuir em projetos desafiadores e crescer profissionalmente.</p>
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/bbonilha/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/Brunna-Bonilha" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">Meu <span>Portfólio</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/Pokedev.png);">
+                        <div class="overlay">Pokedev</div>
+                    </div>
+                    <div class="descricao-port">
+                        <h3>Acesse meu Github para conhecer melhor esse e outros projeto.</h3>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">Fale <span>Comigo.</span></h2>
+
+                <form action="contato.php" method="POST" id="contact-form">
+                    <input type="text" name="nome" placeholder="Digite seu nome completo:" required>
+                    <input type="email" name="email" placeholder="Digite seu e-mail:" required>
+                    <input type="text" name="celular" placeholder="Digite seu celular:" required>
+                    <textarea name="mensagem" placeholder="Digite sua mensagem:" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/Logo3.png" alt="imagem da logo do meu Portfólio é um Bb como refência ao meu nome">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://github.com/Brunna-Bonilha" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/bbonilha/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:brunnabonilha1@gmail.com">brunnabonilha1@gmail.com</a>
